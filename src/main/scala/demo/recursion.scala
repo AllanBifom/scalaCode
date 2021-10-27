@@ -70,6 +70,7 @@ object recursion extends App{
     else fiboTailrec(2,1,1)
   }
   println(fibonacci(7))
+  //println(anotherFactorial(5000))
 /* the amount of recursive calls you have in the code path is the amount of accumulators you should have in the
   recursive function
  */

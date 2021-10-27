@@ -21,7 +21,7 @@ abstract class MyList {
 
 }
 // ??? returns nothing
-object EmptyList extends MyList {
+case object EmptyList extends MyList {
   def head :Int = throw new NoSuchElementException
   def tail: MyList = throw new NoSuchElementException
   def isEmpty: Boolean = true
@@ -29,7 +29,7 @@ object EmptyList extends MyList {
   def printElements:String = ""
 
 }
-class cons(h:Int, t:MyList)extends MyList{
+case class cons(h:Int, t:MyList)extends MyList{
   def head :Int = h
   def tail: MyList = t
   def isEmpty: Boolean = false

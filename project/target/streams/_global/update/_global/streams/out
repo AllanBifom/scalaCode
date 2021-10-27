@@ -1,4 +1,3 @@
-[warn] sbt-1.3.13.jar no longer exists at /Users/allanbifom/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.3.13/sbt-1.3.13.jar
-[debug] "not up to date. inChanged = false, force = false
+[debug] "not up to date. inChanged = true, force = false
 [debug] Updating ProjectRef(uri("file:/Users/allanbifom/IdeaProjects/secondScala/project/"), "secondscala-build")...
 [debug] Done updating ProjectRef(uri("file:/Users/allanbifom/IdeaProjects/secondScala/project/"), "secondscala-build")
